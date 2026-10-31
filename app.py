@@ -1,4 +1,4 @@
-"""Alibaba-style Integrated Inventory, Pricing & Markdown-Recommendation DSS — AOR Group 15 prototype.
+"""Alibaba-style Integrated Inventory, Pricing & Markdown-Recommendation DSS — AOR Group 7 prototype.
 Run locally:  streamlit run app.py
 Deploy:       push app.py, model_core.py, requirements.txt to GitHub -> share.streamlit.io -> New app.
 """
@@ -14,7 +14,7 @@ st.set_page_config(page_title="Omnichannel Retail DSS", page_icon="🛒", layout
 ACC, ACC2, WARN = "#2563eb", "#f97316", "#dc2626"
 
 st.sidebar.title("Retail Optimisation DSS")
-st.sidebar.caption("AOR Final Project · Group 15 · after Deng et al. (2023), INFORMS J. Applied Analytics 53(1)")
+st.sidebar.caption("AOR Final Project · Group 7 · after Deng et al. (2023), INFORMS J. Applied Analytics 53(1)")
 page = st.sidebar.radio("Module", ["Overview", "M1 · Inventory (SOPT)", "M2 · Promotional pricing", "M3 · Markdown ranking"])
 st.sidebar.markdown("---")
 st.sidebar.caption("Hard-coded sample data (D1–D3 in the wiki). Small instances are solved exactly; "
